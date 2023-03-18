@@ -1,0 +1,96 @@
+Recap:
+
+    what is node, npm,
+    node - isolated 
+
+    what is react
+      framework used to single-page application --> single html file and further pages are loaded with DOM manipulation with help of virtual
+
+    what is VirtualDOM:
+      in memory copy of the actual DOM
+      changes reflect first in VDOM
+      where the VDOM is compared with Actual DOM
+      Rendering heppens only when there is a difference in Comparison
+
+    Conditional rendering 
+    
+    Components
+
+    Props
+
+Topics:
+  Components:
+    are the functional/building blocks ( Constructs Separate UI (JSX) block )
+
+    while writing component follow the below,
+
+      filename and component shoudl be same
+
+      default export for component
+
+      Name of the component/ file name should be Capitalised.
+        eg: CardBtn - Card component which behaves like button
+            Course - represents a course block
+      
+      wrong:
+        cardbtn - wrong
+        course - wrong
+  
+  Stop the react server:
+    goto running terminal
+    ctrl + c
+
+  Working with array lists
+    {} --> using expression or js statements inside jsx
+    rendering a array of data
+
+    error, warning in compilation
+
+    should correct the warning and errors
+
+    Usage of keys:
+      key is specified to identify the particular component in VDOM
+      do not use index key
+
+  for in html --> htmlFor in jsx ( for is a reserved keyword )
+  class in html --> className in jsx ( class is reserved keyword in js )
+
+  conditional rendering:
+    conditional changing the ui
+
+  <></> --> fragment for wrapping a set of html elements/components
+
+  Rendering:
+    when VDOM and Actual DOM is Loaded, the variable and other declarations ( var, let, const ) made const.
+  Default React behavior:
+    Once rendered DOM or VDOM will **not** render as long we refresh
+  
+  Overcoming:
+    React has one utility called hooks --> provides a re-render
+    useState --> state handling
+
+  Props vs state
+    Props:
+      A static data passed to a component while rendering at once
+    State:
+      useState is a hook
+      Data changes causes re-render
+
+  Handling Events:
+    onClick
+
+  Using CSS in react
+    1. Normal CSS
+  
+  Online Playground ( Codesandbox, codepen )
+  
+
+  Task:
+    Counter Applicaion
+    
+  Next Session:
+    onChange
+    submit
+    Create Disney Layout that we practiced in the HTML DOM
+    Module CSS
+    Deploying to Netlify
