@@ -24,7 +24,7 @@ Topics:
 
     while writing component follow the below,
 
-      filename and component shoudl be same
+      filename and component name should be same
 
       default export for component
 
@@ -61,7 +61,7 @@ Topics:
   <></> --> fragment for wrapping a set of html elements/components
 
   Rendering:
-    when VDOM and Actual DOM is Loaded, the variable and other declarations ( var, let, const ) made const.
+    when VDOM and Actual DOM is Loaded, the variable and other declarations ( var, let, const ) are made const.
   Default React behavior:
     Once rendered DOM or VDOM will **not** render as long we refresh
   
